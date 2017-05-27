@@ -96,8 +96,9 @@ export function InitHelp(robot: Robot, scripts: IScriptsMap, searcher: Searcher)
     // run a search on the unknown command
     let matches = searcher.executeSearch(txtMsg)
     if (matches.length > 0) {
-      matches = matches.slice(0, 5).map((m) => '* ' + m)
+      matches = matches.slice(0, 5)
       matches = renameHelpCommands(matches, robot.name)
+      matches = matches.map((m) => '* ' + m)
       matches.splice(0, 0, "Sorry, I didn't catch that.  Try one of these?")
       res.reply(matches.join('\n'))
     } else {
