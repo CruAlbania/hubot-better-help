@@ -2,15 +2,17 @@
 //   A more helpful help command.
 //
 // Dependencies:
-//   "<module name>": "<module version>"
+//   "stopwords": "0.0.5"
 //
 // Configuration:
+//   HUBOT_HELP_NO_GREETINGS=true - tells hubot to not listen for mentions such as 'ask hubot' or 'hi hubot'
 //
 // Commands:
 //   hubot help - The friendly help prompt
 //
 // Notes:
-//
+//   This module is written with typescript, and all javascript files are generated.  If you want to make changes
+//   please clone the source from https://github.com/CruAlbania/hubot-better-help
 //
 // Author:
 //   gburgett

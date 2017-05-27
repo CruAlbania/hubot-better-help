@@ -23,7 +23,7 @@ export function InitHelp(robot: Robot, scripts: IScriptsMap, searcher: Searcher)
         if (!scripts.hasOwnProperty(k)) {
           continue
         }
-        if (k === 'help') {
+        if (k === 'better-help') {
           // skip the help command itself
           continue
         }

@@ -1,6 +1,6 @@
 {
   "name": "hubot-better-help",
-  "description": "A more helpful help command",
+  "description": "A friendlier help command",
   "version": "0.0.3",
   "author": "Gordon Burgett <gordon@gordonburgett.net>",
   "license": "MIT",
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-better-help.git"
+    "url": "git://github.com/CruAlbania/hubot-better-help.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-better-help/issues"
+    "url": "https://github.com/CruAlbania/hubot-better-help/issues"
   },
   "dependencies": {
     "coffee-script": "~1.6",
