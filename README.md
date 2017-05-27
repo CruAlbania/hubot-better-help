@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/CruAlbania/hubot-better-help.svg?branch=master)](https://travis-ci.org/CruAlbania/hubot-better-help)
 [![npm version](https://badge.fury.io/js/hubot-better-help.svg)](https://badge.fury.io/js/hubot-better-help)
-[![npm](https://img.shields.io/npm/dm/localeval.svg)](https://www.npmjs.com/package/hubot-better-help)
+[![npm](https://img.shields.io/npm/dm/hubot-better-help.svg)](https://www.npmjs.com/package/hubot-better-help)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### A more friendly help command.
