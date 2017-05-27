@@ -1,4 +1,4 @@
-scripts/
+src/
 .travis.yml
 gulpfile.js
 tsconfig.json
