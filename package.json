@@ -39,6 +39,7 @@
   },
   "main": "index.coffee",
   "scripts": {
+    "lint": "tslint 'src/**/*.ts?(x)' -e '**/*.d.ts'",
     "test": "mocha --compilers coffee:coffee-script,ts:ts-node/register --recursive 'src/**/*.test.ts'"
   }
 }
