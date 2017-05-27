@@ -1,9 +1,18 @@
 language: node_js
 node_js:
-  - "node"
-  - "7"
-  - "0.10"
-
+- node
+- '7'
+- '0.10'
 script:
-  - yarn run lint
-  - yarn run test
+- yarn run lint
+- yarn run test
+deploy:
+  provider: npm
+  email: gordon@gordonburgett.net
+  api_key:
+    secure: Tx5KZuckV99BNO8Cj4RjWKBaFjVJMNHkklaSxYhaO1JoaPG2Hy2LheZP7JUWhewFXTsnW8vX1ORPl5ymyQHH7UTtQzhbVgdnYHbh6BosFBS0AWsHtnHEAlRGFo/9besmZtXCnwgDffJIu2CmXjmN7h3OT3rotyeqinqSV1nm+4cmLowr+xNxQTUEgX3ZZNXjEt6naRZmEOuHW9bz/gT6+997C3nf8EHAnFgdHC7gKBqIOILeJ8XrMiem6CZ+i/8WY8cm9HchF7cw16zqv2+1qb2fszBWB2p/6Enx+2d982LsoSeqA4VRsHpUzi9ii5sQtn33/YCZxlqam4sDH1ItVirbEXV0frcdelU1TAbZs9ObyHogFvH2AsdaGi34CQsrj8q3ryws6CqbaG4As22xIYLP/UzHAY74AFxSmbK1iXoc+R17rhwdI8rKzTQzPsqWY/tb26LaMD10z8JVuZ5TZoc3eDCj3KLjn/pwa3+Cogw6jM1ahV8Rz00jwHvNsf9jNFn7ZPHdqn1S2KkqQ1VGn/28jKHYJn21EAqaJF9lmgww1E3FXZiL+Qz5IxciL73aG8DcvgFw68JSy9/60mfAYUPJeXZ/PFAE/yjiZlyIk0Hgx/eX5qTLOVU4MQVG91bORWUzM7r72uKGZqLvsrx1ptRjZr9lMX+FzInVTzzp0Og=
+  on:
+    tags: true
+    repo: CruAlbania/hubot-better-help
+    branch: master
+  skip_cleanup: true
