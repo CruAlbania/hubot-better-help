@@ -1,0 +1,6 @@
+scripts/
+.travis.yml
+gulpfile.js
+tsconfig.json
+tslint.json
+yarn.lock

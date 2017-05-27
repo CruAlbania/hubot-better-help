@@ -1,5 +1,5 @@
 {
-  "name": "hubot-better-help",
+  "name": "@crualbania/hubot-better-help",
   "description": "A more helpful help command",
   "version": "0.0.1",
   "author": "Gordon Burgett <gordon@gordonburgett.net>",
