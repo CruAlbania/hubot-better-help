@@ -2,10 +2,12 @@ language: node_js
 node_js:
 - node
 - '7'
-- '0.10'
 script:
 - yarn run lint
 - yarn run test
+
+cache: yarn
+
 deploy:
   provider: npm
   email: gordon@gordonburgett.net
