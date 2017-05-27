@@ -1,7 +1,7 @@
 {
   "name": "hubot-better-help",
   "description": "A more helpful help command",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Gordon Burgett <gordon@gordonburgett.net>",
   "license": "MIT",
   "keywords": [
