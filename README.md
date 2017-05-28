@@ -1,5 +1,7 @@
 # hubot-better-help
 
+[![Join the chat at https://gitter.im/CruAlbania/hubot-better-help](https://badges.gitter.im/CruAlbania/hubot-better-help.svg)](https://gitter.im/CruAlbania/hubot-better-help?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build Status](https://travis-ci.org/CruAlbania/hubot-better-help.svg?branch=master)](https://travis-ci.org/CruAlbania/hubot-better-help)
 [![npm version](https://badge.fury.io/js/hubot-better-help.svg)](https://badge.fury.io/js/hubot-better-help)
 [![npm](https://img.shields.io/npm/dm/hubot-better-help.svg)](https://www.npmjs.com/package/hubot-better-help)
